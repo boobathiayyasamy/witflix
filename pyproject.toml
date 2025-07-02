@@ -1,0 +1,14 @@
+[project]
+name = "mimic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gradio>=5.34.2",
+    "huggingface-hub>=0.33.1",
+    "mlx>=0.26.1",
+    "mlx-lm>=0.25.2",
+    "mlx-whisper>=0.4.2",
+    "python-dotenv>=1.1.1",
+]
