@@ -9,7 +9,7 @@ class TranscriptionSummarizer:
                        f"comment on the content of the clip. For example, "
                        f'"it\'s a hilarious satirical comedy that\'ll have you in stitches" or, '
                        f'"it\'s an action packed adventure that\'ll keep you on the edge of your seat."\n'
-                       f"Don't try to reference the film in anyway."
+                       f"Don't try to reference the film in any way."
                        f"\n\n{transcription}")
 
         messages = [
