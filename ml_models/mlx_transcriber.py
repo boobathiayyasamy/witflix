@@ -2,11 +2,12 @@ import os
 from mlx_whisper import transcribe
 
 WHISPER_MODEL = "mlx-community/whisper-medium"
+DATA_DIR = "data"
 
 class AudioTranscriber:
     @staticmethod
-    def list_files():
-        files = [f for f in os.listdir("data") if f.lower().endswith(".mp3")]
+    def list_files(directory=DATA_DIR):
+        files = [f for f in os.listdir(directory) if f.lower().endswith(".mp3")]
         return sorted(files)
 
     def transcribe_audio(self, audio_path):
